@@ -1,0 +1,23 @@
+-create backend and frontend folder
+-create .gitignore and README.md files
+-backend:
+    -npm init -y
+    -npm i express nodemon
+    -package.json: 
+        "type": "module",
+        scripts:{
+            "start":"node index.js",
+            "dev":"nodemon index.js",
+        }
+
+-create a mongodb clustor on mongodb atlas
+    -npm i mongoose
+    -connect database using mongoose in index.js
+    -create a model schema   (refer cat model from mongoosejs.com)
+
+-create routes for CRUD operations
+-npm create vite@latest
+-npm i
+-npm i react-router-dom
+-npm i axious react-icons
+-npm i notistack
